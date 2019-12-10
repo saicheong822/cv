@@ -1,0 +1,83 @@
+<!-- Boilerplate, plugin to insert the whole html tag in, image plugin
+https://atom.io/packages/atom-html-templates
+Type html5 and ctrl + alt + o , it will show the template
+charset = encoding, we need to use the correct one for different languages
+Unicode UTF-8 covers every of them
+The meta tag name description is the text that shows up below the link on Google search
+
+Deprecated
+  No longer recommend to use it. E.g. certain attribute of table, which CSS can do better
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>SNG Personal</title>
+  <meta name="description" content="DESCRIPTION">
+  <link rel="stylesheet" href="index.css">
+
+  <!--[if lt IE 9]>
+       <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <![endif]-->
+</head>
+
+<body>
+  <!-- ctrl + / to add comment, add image with a link
+  <img src="https://cdn.vox-cdn.com/thumbor/3wSqBGPdJFI_qz894cTE2lkbsTs=/63x0:1975x1275/1520x1013/filters:focal(63x0:1975x1275):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/34502459/Felix-the-Cat.0.jpg" alt="cat image">
+  add image that in the folder -->
+  <table cellspacing='20'>
+    <tr>
+      <td> <img src="image/download.jpeg" alt="felix"></td>
+      <td>
+        <h1>Seh Cheong NG</h1>
+        <p><em>
+            <!-- a stands for anchor tag to add a hyperlink
+        target = '_blank' open the link in new tab  -->
+            <st>Data analyst & Technical Support at <a href='https://ag-space.com' target='_blank'>AgSpace</a></st>
+          </em></p>
+      </td>
+    </tr>
+  </table>
+
+  <h2><a href="Education.html" target='_blank'>Education</a></h2>
+
+  <h2><a href="contact.html" target='_blank'>Contact</a></h2>
+
+  <h2>Skill</h2>
+
+  <table border='1'>
+    <tr>
+    <td>
+    <table>
+      <tr>
+        <td>Linux</td>
+        <td>***</td>
+      </tr>
+      <tr>
+        <td>SQL</td>
+        <td>***</td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td>HTML</td>
+        <td>***</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>***</td>
+      </tr>
+    </table>
+
+  </table>
+  </p>
+  <hr size="5">
+</body>
+
+</html>
